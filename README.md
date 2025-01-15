@@ -30,7 +30,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 3. __Integrate Active Directory with Azure AD__
 - Use Azure Ad to connect and sync the on-premises Active Directory with Azure AD.
 4. __Test and validate Configuration__
-Verify successful synchronization and user authentication between environments. 
+- Verify successful synchronization and user authentication between environments. 
      
 
 
