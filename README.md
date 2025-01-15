@@ -51,6 +51,7 @@ __Step 2: Deploy Active Directory__
 *  Install the Active Directory Domain Services (AD DS) role on the server.
 *  Promote the server to a domain controller.
 *  create organizational units (OU's), users, and groups for role management.
+< br/>
 
 
 
