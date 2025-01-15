@@ -32,8 +32,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 4. __Test and validate Configuration__
 Verify successful synchronization and user authentication between environments. 
      
-- Joint Client-1 to the domain. On Client-1, Navigate to __System Properties__ > __Computer name__ > __Change__ and join it to the Domain. 
-- We can now create __Organizational Units (OUs)__, add __users__ and __groups__, and set up __Group Policy Objects__
+
 
 <h2>Deployment and Configuration Steps</h2>
 
