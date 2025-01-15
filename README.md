@@ -46,7 +46,7 @@ __Step 1:Set up the environment__
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<br/>
+
 __Step 2: Deploy Active Directory__
 *  Install the Active Directory Domain Services (AD DS) role on the server.
 *  Promote the server to a domain controller.
