@@ -48,7 +48,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br/>
-__Step 2:__
+__Step 2: Deploy Active Directory__
+* Install the Active Directory Domain Services (AD DS) role on the server.
+* Promote the server to a domain controller.
+* Create organizational units (OU's), users, and groups for role management.
+
 
 
 
