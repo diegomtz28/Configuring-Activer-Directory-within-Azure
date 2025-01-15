@@ -36,11 +36,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-
 __Step 1:Set up the environment__ 
-   * Create a virtual machine (VM) using Windows Server 2022
-   * Install necessary tools like Powershell and Azure AD connect.
-   * Ensure network connectivity and proper firewall configurations for Azure synchronization.
+* Create a virtual machine (VM) using Windows Server 2022
+*  Install necessary tools like Powershell and Azure AD connect.
+*  Ensure network connectivity and proper firewall configurations for Azure synchronization.
 
 
     **screenshot server manager- installing adds role**
@@ -49,9 +48,9 @@ __Step 1:Set up the environment__
 
 <br/>
 __Step 2: Deploy Active Directory__
-* Install the Active Directory Domain Services (AD DS) role on the server.
-* Promote the server to a domain controller.
-* Create organizational units (OU's), users, and groups for role management.
+*  Install the Active Directory Domain Services (AD DS) role on the server.
+*  Promote the server to a domain controller.
+*  create organizational units (OU's), users, and groups for role management.
 
 
 
