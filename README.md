@@ -37,7 +37,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 
-  __Step 1:Set up the environment__ 
+__Step 1:Set up the environment__ 
    * Create a virtual machine (VM) using Windows Server 2022
    * Install necessary tools like Powershell and Azure AD connect.
    * Ensure network connectivity and proper firewall configurations for azure synchronization.
