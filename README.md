@@ -36,9 +36,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 __Step 1:Set up the environment__ 
 * Go to the Azure portal and click __Create a Resource__.
 *  Select __Virtual Machine__ and configure the following:
-  - Select Windows Server 2022 as your image.
-  - Set username, password, and resource group.
-  - Ensure the VM is deployed in a virtual network.
+     *  Select Windows Server 2022 as your image.
+     *  Set username, password, and resource group.
+     *  Ensure the VM is deployed in a virtual network.
 * Start the Vm and connect to it via __RDP__.    
    
 
