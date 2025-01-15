@@ -51,17 +51,29 @@ __Step 2: Deploy Active Directory__
 *  Install the Active Directory Domain Services (AD DS) role on the server.
 *  Promote the server to a domain controller.
 *  create organizational units (OU's), users, and groups for role management.
-< br/>
+
 
 
 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+__Step 3: Integrate Active Directory with Azure AD__
+* Install and configure Azure AD Connect on the domain controller.
+* Select synchronization options
+*  Configure filters to limit which objects are synced. 
+* Verify Synchronization of users, groups, and attributes in the Azure Portal.
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+__Step 4: Test and Validate Configuration
+* Log in to Azure Ad with on-premise AD credentials to confirm synchronization.
+* Validate users and groups appear in Azure Ad as expected
+* Test any additional functionality, such as SSO or MFA, if implemented.
+
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
