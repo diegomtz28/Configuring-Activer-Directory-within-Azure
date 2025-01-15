@@ -43,36 +43,44 @@ __Step 1:Set up the environment__
    
 
 
-    **screenshot server manager- installing adds role**
+    **(Vm configuration page before deployment and VM running in azure**
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 __Step 2: Deploy Active Directory__
-*  Install the Active Directory Domain Services (AD DS) role on the server.
-*  Promote the server to a domain controller.
-*  create organizational units (OU's), users, and groups for role management.
-
+* Once connected to the VM:
+     * Open Server Manager and install the __AD DS role__. 
+     *  Promote the server to a domain controller and create domain.
+**(The ad ds innstalation in server manager)**
 
 
 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-__Step 3: Integrate Active Directory with Azure AD__
-* Install and configure Azure AD Connect on the domain controller.
-* Select synchronization options
-*  Configure filters to limit which objects are synced. 
-* Verify Synchronization of users, groups, and attributes in the Azure Portal.
+__Step 3: Create Organization Units (OUs) and Users__
+* Open Active Directory users and Computers on the Azure VM.
+* Create a new OU
+* Add users to the domain and assign them to the OU.
 
+  **(The newly created ou and user accounts under ou**
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
-__Step 4:__ Test and Validate Configuration
-* Log in to Azure Ad with on-premise AD credentials to confirm synchronization.
-* Validate users and groups appear in Azure Ad as expected
-* Test any additional functionality, such as SSO or MFA, if implemented.
+__Step 4: Set up Grouop Policies__
+* Open __Group Policy Managment__.
+* Create a __Group Policy Object (GPO)__ and link it to an OU.
+* Configure simple policies (enforcing passwords or a desktop wallpaper)
 
+**(GPO linked to the ou in console, the settings configured in the GPO editor.**
   <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+__Step 5: Test Active Directory Fuinctionality__
+- create another VM in azure (Windows 10) in the same Virtual Network.
+- Join the new VM to the domain.
+- Log in a one of the domain users created earlier.
+
+  **(Confirmation of the client vm joining the domain, successful login as a domain user.**
   <br />
 
