@@ -23,23 +23,24 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-1. __Set Up the Environment__
-- Prepare the required infrastructure, systems, and tools.
+1. __Deploy a Virtual Machine (VM)__
 2. __Deploy Active Directory__
-- Install and configure Microsoft Azure Directory on a server.
-3. __Integrate Active Directory with Azure AD__
-- Use Azure Ad to connect and sync the on-premises Active Directory with Azure AD.
+3. __Create Organizational Units (OUs) and Manage Users__
 4. __Test and validate Configuration__
-- Verify successful synchronization and user authentication between environments. 
+
      
 
 
 <h2>Deployment and Configuration Steps</h2>
 
 __Step 1:Set up the environment__ 
-* Create a virtual machine (VM) using Windows Server 2022
-*  Install necessary tools like Powershell and Azure AD connect.
-*  Ensure network connectivity and proper firewall configurations for Azure synchronization.
+* Go to the Azure portal and click __Create a Resource__.
+*  Select __Virtual Machine__ and configure the following:
+  - Select Windows Server 2022 as your image.
+  - Set username, password, and resource group.
+  - Ensure the VM is deployed in a virtual network.
+* Start the Vm and connect to it via __RDP__.    
+   
 
 
     **screenshot server manager- installing adds role**
