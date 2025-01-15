@@ -67,7 +67,7 @@ __Step 3: Integrate Active Directory with Azure AD__
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
-__Step 4: Test and Validate Configuration
+__Step 4:__ Test and Validate Configuration
 * Log in to Azure Ad with on-premise AD credentials to confirm synchronization.
 * Validate users and groups appear in Azure Ad as expected
 * Test any additional functionality, such as SSO or MFA, if implemented.
