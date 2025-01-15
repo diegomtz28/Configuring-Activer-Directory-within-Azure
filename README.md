@@ -52,7 +52,7 @@ Verify successful synchronization and user authentication between environments.
 </p>
 <br />
 
-<p>
+<p> __Step 2:__ 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
