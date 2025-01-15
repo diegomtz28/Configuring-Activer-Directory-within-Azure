@@ -46,7 +46,7 @@ Verify successful synchronization and user authentication between environments.
     **screenshot server manager- installing adds role**
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+</p>213
 <p>
   
 </p>
