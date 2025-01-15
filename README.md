@@ -82,5 +82,6 @@ __Step 5: Test Active Directory Fuinctionality__
 - Log in a one of the domain users created earlier.
 
   **(Confirmation of the client vm joining the domain, successful login as a domain user.**
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br />
 
