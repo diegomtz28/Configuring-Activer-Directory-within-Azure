@@ -26,7 +26,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 1. __Deploy a Virtual Machine (VM)__
 2. __Deploy Active Directory__
 3. __Create Organizational Units (OUs) and Manage Users__
-4. __Test and validate Configuration__
+4. __Set up Group Policies__
 
      
 
