@@ -43,9 +43,9 @@ __Step 1:Set up the environment__
    
 
 
-    **(Vm configuration page before deployment and VM running in azure**
+
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/diegomtz28/Configuring-Activer-Directory-within-Azure/blob/main/Vm%20Deployed%20(DC-1).png"/>
 
 
 __Step 2: Deploy Active Directory__
