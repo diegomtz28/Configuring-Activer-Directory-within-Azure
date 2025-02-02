@@ -57,7 +57,7 @@ __Step 2: Deploy Active Directory__
 
 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/diegomtz28/Configuring-Activer-Directory-within-Azure/blob/main/Deploying%20Active%20Directory.png"/>
 
 __Step 3: Create Organization Units (OUs) and Users__
 * Open Active Directory users and Computers on the Azure VM.
