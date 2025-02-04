@@ -73,8 +73,7 @@ __Step 4: Set up Grouop Policies__
 * Create a __Group Policy Object (GPO)__ and link it to an OU.
 * Configure simple policies (enforcing passwords or a desktop wallpaper)
 
-**(GPO linked to the ou in console, the settings configured in the GPO editor.**
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://github.com/diegomtz28/Configuring-Activer-Directory-within-Azure/blob/main/Linking%20Group%20Policy%20to%20OU.png"/>
 
 __Step 5: Test Active Directory Fuinctionality__
 - create another VM in azure (Windows 10) in the same Virtual Network.
