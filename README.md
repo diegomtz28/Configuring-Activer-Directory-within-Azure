@@ -60,12 +60,12 @@ __Step 2: Deploy Active Directory__
 <img src="https://github.com/diegomtz28/Configuring-Activer-Directory-within-Azure/blob/main/Deploying%20Active%20Directory.png"/>
 
 __Step 3: Create Organization Units (OUs) and Users__
-* Open Active Directory users and Computers on the Azure VM.
+* Open Active Directory Users and Computers on the Azure VM.
 * Create a new OU
 * Add users to the domain and assign them to the OU.
 
-  **(The newly created ou and user accounts under ou**
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://github.com/diegomtz28/Configuring-Activer-Directory-within-Azure/blob/main/OU%20and%20User%20Accounts.png"/>
 
 
 __Step 4: Set up Grouop Policies__
